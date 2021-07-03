@@ -138,10 +138,6 @@ section {
   background: #fce138;
 }
 
-.secondary-border {
-  border-color: #39a6b2;
-}
-
 .steps div {
   margin-bottom: 80px;
 }
@@ -164,6 +160,23 @@ section {
 
 .steps span {
   font-size: 38px;
+}
+
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
 }
 
 .trainers {
@@ -189,27 +202,6 @@ section {
   width: 65%;
 }
 
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
 .trainer-bio h3 {
   font-size: 32px;
   margin-bottom: 8px;
@@ -224,4 +216,12 @@ section {
 .trainer-bio p {
   font-size: 17px;
   line-height: 1.3;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
